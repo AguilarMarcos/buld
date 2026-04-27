@@ -1,0 +1,64 @@
+/* Reset general para eliminar espacios extra */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal con fondo gris oscuro y centrado total */
+.main-container {
+    background-color: #282c34; /* Tono oscuro idéntico a la imagen */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo de la imagen de perfil */
+.formal-img {
+    width: 200px; /* Tamaño ajustado para dispositivos de escritorio */
+    height: auto;
+    margin-bottom: 40px;
+}
+
+/* Título principal grande y negrita */
+.title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Subtítulo con el nombre del alumno */
+.subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/* Contenedor de enlaces apilados verticalmente */
+.links-group {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Estilo azul cian para los enlaces subrayados */
+.link-item {
+    color: #00a8e8;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.link-item:hover {
+    color: #33c9ff;
+    text-decoration: none;
+}
